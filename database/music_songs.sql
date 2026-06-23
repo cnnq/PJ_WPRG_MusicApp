@@ -26,6 +26,7 @@ CREATE TABLE `songs` (
   `song_id` int NOT NULL AUTO_INCREMENT,
   `title` varchar(45) NOT NULL,
   `image_path` varchar(255) DEFAULT NULL,
+  `song_path` varchar(255) DEFAULT NULL,
   `author_id` int NOT NULL,
   `plays` int unsigned NOT NULL DEFAULT '0',
   `upvotes` int unsigned NOT NULL DEFAULT '0',
